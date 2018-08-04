@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import ClickCounter  from './ClickCounter';
+import ConunterPanel  from './ControlPanel';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<ConunterPanel />, document.getElementById('root'));
 registerServiceWorker();
